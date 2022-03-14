@@ -13,7 +13,8 @@ TC1
     
 TC2
     Create Directory    E:${/}Temp${/}My_Folder
-    Create File    E:${/}Temp${/}notes.txt      Wajid Rahman
-    Copy File    E:${/}Temp${/}notes.txt     E:${/}Temp${/}destination.txt
-    Remove File    E:${/}Temp${/}destination.txt
+    Create File    E:${/}Temp${/}My_Folder${/}notes.txt      Wajid Rahman
+    Copy File    E:${/}Temp${/}My_Folder${/}notes.txt     E:${/}Temp${/}notes_copy.txt
+    Sleep   5s
+    Remove File    E:${/}Temp${/}My_Folder${/}notes.txt
     Remove Directory    E:${/}Temp${/}My_Folder
