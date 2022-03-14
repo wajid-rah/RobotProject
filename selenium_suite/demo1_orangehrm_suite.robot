@@ -19,17 +19,18 @@ TC2
     Open Browser       url=https://opensource-demo.orangehrmlive.com       browser=chrome
     Maximize Browser Window
     Set Selenium Implicit wait      20s
-    Input Text      id=txtUsername      Admin
+    Input Text          id=txtUsername      Admin
     Input Password      id=txtPassword      admin123
     Click Element       id=btnLogin
-    Click Element      id=menu_pim_viewMyDetails
+    Click Element       id=menu_pim_viewMyDetails
     Click Element       partial link=Emergency Contacts
     Click Element       id=btnAddContact
-    Input Text      id=emgcontacts[name]       Sat
-    Input Text    id=emgcontacts[relationship]      Brother
-    Input Text      id=emgcontacts[homePhone]       12345
-    Input Text      id=emgcontacts[mobilePhone]     3232
-    Input Text      id=emgcontacts[workPhone]       66666
-    Click Element   id=btnSaveEContact
+
+    Input Text          id=emgcontacts[name]       Sat
+    Input Text          id=emgcontacts[relationship]      Brother
+    Input Text          id=emgcontacts[homePhone]       12345
+    Input Text          id=emgcontacts[mobilePhone]     3232
+    Input Text          id=emgcontacts[workPhone]       66666
+    Click Element       id=btnSaveEContact
 
 
