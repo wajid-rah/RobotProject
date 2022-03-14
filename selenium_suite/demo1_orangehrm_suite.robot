@@ -26,5 +26,10 @@ TC2
     Click Element       partial link=Emergency Contacts
     Click Element       id=btnAddContact
     Input Text      id=emgcontacts[name]       Sat
-    Input Text      id=emgcontacts[homePhone]   urday
+    Input Text    id=emgcontacts[relationship]      Brother
+    Input Text      id=emgcontacts[homePhone]       12345
+    Input Text      id=emgcontacts[mobilePhone]     3232
+    Input Text      id=emgcontacts[workPhone]       66666
+    Click Element   id=btnSaveEContact
+
 
