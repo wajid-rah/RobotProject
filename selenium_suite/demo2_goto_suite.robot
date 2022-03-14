@@ -15,4 +15,4 @@ TC1
     Input Text    name=LastName   wick
     Input Text    id=login__email    john@gmail.com
     Select From List By Label    id=CompanySize     100 - 249
-    Click Element   link=Start My Trial
+    Click Element   partial link=Start My Trial
