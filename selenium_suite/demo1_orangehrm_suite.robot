@@ -1,8 +1,9 @@
 *** Settings ***
 Library     SeleniumLibrary
-
+Library     OperatingSystem
 *** Test Cases ***
 
 
 TC1
-    Open Browser        opensource-demo.orangehrmlive.com      chrome
+    Append To Environment Variable    Path      ${EXECDIR}${/}driver${/}    # Chrome Driver
+    Open Browser       url=https://opensource-demo.orangehrmlive.com       browser=chrome
