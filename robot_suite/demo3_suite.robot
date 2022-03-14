@@ -23,6 +23,6 @@ TC3
     Create Directory    E:${/}robot_frameworks${/}robot_suite${/}My_Folder
 
 TC4
-    Create Directory     ${EXECDIR}${/}My_Folder
+    Create Directory     ${EXECDIR}${/}My_Folder    # EXECDIR is based on Terminal
     Create File    ${EXECDIR}${/}My_Folder${/}note.txt   Wajid Rahman
     File Should Exist    ${EXECDIR}${/}My_Folder${/}note.txt
