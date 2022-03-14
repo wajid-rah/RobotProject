@@ -32,5 +32,9 @@ TC2
     Input Text          name=emgcontacts[mobilePhone]     3232
     Input Text          name=emgcontacts[workPhone]       66666
     Click Element       id=btnSaveEContact
+    Table Should Contain        id=emgcontact_list      Sat
+    Table Should Contain        id=emgcontact_list      12345
+
+
 
 
