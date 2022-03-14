@@ -18,3 +18,11 @@ TC2
     Sleep   5s
     Remove File    E:${/}Temp${/}My_Folder${/}notes.txt
     Remove Directory    E:${/}Temp${/}My_Folder
+
+TC3
+    Create Directory    E:${/}robot_frameworks${/}robot_suite${/}My_Folder
+
+TC4
+    Create Directory     ${EXECDIR}${/}My_Folder
+    Create File    ${EXECDIR}${/}My_Folder${/}note.txt   Wajid Rahman
+    File Should Exist    ${EXECDIR}${/}My_Folder${/}note.txt
