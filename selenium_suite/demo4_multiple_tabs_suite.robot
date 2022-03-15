@@ -14,4 +14,5 @@ TC1
     Click Element    id=input_go
 
     Element Should Contain    //div[contains(text(),'Access')]      Access denied for user
+    [Teardown]      Close Browser
 
