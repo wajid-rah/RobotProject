@@ -13,3 +13,4 @@ TC1
 
     Input Text    //input[@id='mobileNoInp']    12345
     Unselect Frame
+    [Teardown]      Close Browser
