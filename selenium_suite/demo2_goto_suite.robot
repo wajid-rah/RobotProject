@@ -14,5 +14,6 @@ TC1
     Input Text    xpath=//input[@data-sc-field-name="email"]    john@gmail.com
     Select From List By Label       xpath=//Select[@data-sc-field-name="employees"]     500 - 999
     click Element       xpath=//input[@class="goto-form__submit"]
+    Close Browser
 
 
