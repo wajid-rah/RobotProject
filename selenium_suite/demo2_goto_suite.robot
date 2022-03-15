@@ -3,16 +3,16 @@ Library     OperatingSystem
 Library     SeleniumLibrary
 
 *** Test Cases ***
-
+#Select From List By Label    id=CompanySize     100 - 249
 TC1
-    Append To Environment Variable    path      ${EXECDIR}${/}driver${/}
-    Open Browser    https://www.goto.com/meeting        browser=chrome
+    Open Browser    https://www.goto.com/meeting        browser=chrome      executable_path=${EXECDIR}${/}driver${/}chromedriver.exe
     Maximize Browser Window
     Set Selenium Implicit Wait    20s
     Click Element    id=truste-consent-button
-    Click Element    link=Try Free
-    Input Text    name=FirstName    John
-    Input Text    name=LastName   wick
-    Input Text    id=login__email    john@gmail.com
-    Select From List By Label    id=CompanySize     100 - 249
-    Click Element   partial link=Start My Trial
+    Click Element    link=Get a Demo
+    Input Text    xpath=//input[@data-sc-field-name='firstName']    John
+    Input Text    xpath=//input[@data-sc-field-name='lastName']   wick
+    Input Text    xpath=//input[@data-sc-field-name="email"]    john@gmail.com
+    click Element       xpath=//input[@class="goto-form__submit"]
+
+
