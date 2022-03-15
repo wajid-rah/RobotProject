@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Test Cases ***
-#Select From List By Label    id=CompanySize     100 - 249
+
 TC1
     Open Browser    https://www.goto.com/meeting        browser=chrome      executable_path=${EXECDIR}${/}driver${/}chromedriver.exe
     Maximize Browser Window
