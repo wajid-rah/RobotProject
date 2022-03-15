@@ -15,6 +15,6 @@ TC1
     Select From List By Label       xpath=//Select[@data-sc-field-name="employees"]     500 - 999
     click Element       xpath=//input[@class="goto-form__submit"]
 
-    Close Browser
+    [Teardown]      Close Browser  # Execute even after test case fails
 
 
