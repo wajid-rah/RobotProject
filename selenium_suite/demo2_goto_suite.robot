@@ -9,7 +9,7 @@ TC1
     Set Selenium Implicit Wait    20s
     Click Element    id=truste-consent-button
     Click Element    link=Get a Demo
-    Input Text    xpath=//input[@data-sc-field-name='firstName']    John
+    Input Text    xpath=//input[@data-sc-field-name='firstName']    John        # Relative xpath
     Input Text    xpath=//input[@data-sc-field-name='lastName']   wick
     Input Text    xpath=//input[@data-sc-field-name="email"]    john@gmail.com
     Select From List By Label       xpath=//Select[@data-sc-field-name="employees"]     500 - 999
