@@ -16,5 +16,4 @@ TC1
     Select From List By Label    xpath=//select[@id='edit-field-city-membership-und']    Chennai
     Click Element    xpath=//input[@id='edit-field-mode-of-payment-und-0']
     Click Element    xpath=//input[@id='edit-field-code-of-conduct-und-0']
-    Click Element   xpath=//input[@id='edit-submit']
-    [Teardown]      Close Browser
+    Click Element   //input[@id='edit-preview']
