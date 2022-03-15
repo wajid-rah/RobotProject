@@ -19,3 +19,4 @@ TC1
     Click Element    xpath=//input[@id='edit-field-mode-of-payment-und-0']
     Click Element    xpath=//input[@id='edit-field-code-of-conduct-und-0']
     Click Element   //input[@id='edit-preview']
+    [Teardown]      Close Browser
