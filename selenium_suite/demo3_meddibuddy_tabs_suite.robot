@@ -11,8 +11,8 @@ TC1
     Click Element       xpath=//button[text()='Not Now']
     Click Element       link=For Employer
     Switch Window       MediBuddy LaunchPad
-    Input Text      id=getInTouchName    Wajid
-    Input Text      id=getInTouchEmail      wajid@yahoo.com
+    Input Text      id=getInTouchName    abc
+    Input Text      id=getInTouchEmail      abc@yahoo.com
     Input Text      id=getInTouchMobile     12345
     Input Text    id=getInTouchEmpCount    3
     Input Text    id=getInTouchDesignation    employee
