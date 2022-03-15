@@ -11,3 +11,4 @@ TC1
     Input Text      xpath=//input[@name='fldLoginUserId']     test123
     Click Element       partial link=CONTINUE
     Unselect Frame
+    [Teardown]  Close Browser
