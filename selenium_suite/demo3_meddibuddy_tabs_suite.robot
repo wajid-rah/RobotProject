@@ -11,6 +11,7 @@ TC1
     Click Element       link=For Employer
     Switch Window       MediBuddy LaunchPad
 
+
     Input Text      id=getInTouchName    Wajid
     Input Text      id=getInTouchEmail      wajid@yahoo.com
     Input Text      id=getInTouchMobile     9876543210
