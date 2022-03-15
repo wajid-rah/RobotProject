@@ -1,5 +1,4 @@
 *** Settings ***
-Library     OperatingSystem
 Library     SeleniumLibrary
 
 *** Test Cases ***
