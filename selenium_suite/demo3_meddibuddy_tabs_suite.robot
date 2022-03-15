@@ -14,8 +14,9 @@ TC1
 
     Input Text      id=getInTouchName    Wajid
     Input Text      id=getInTouchEmail      wajid@yahoo.com
-    Input Text      id=getInTouchMobile     9876543210
+    Input Text      id=getInTouchMobile     12345
     Input Text    id=getInTouchEmpCount    3
+    Input Text    id=getInTouchDesignation    employee
     Click Element    xpath=//button[text()='Get in Touch']
-    Close Window
+    Close Window        # Close 2nd tab/window  while close browser will close entire tab
 
