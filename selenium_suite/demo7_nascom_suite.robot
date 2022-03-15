@@ -14,6 +14,8 @@ TC1
     Input Text      xpath=//textarea[@id='edit-field-address-line-1-und-0-value']   20 Chennai
     Select From List By Label    xpath=//select[@id='edit-field-state-member-und']      Tamil Nadu
     Select From List By Label    xpath=//select[@id='edit-field-city-membership-und']    Chennai
+    Choose File         id=edit-field-memorandum-article-of-asso-und-0-upload    ${EXECDIR}${/}file${/}Nascom.pdf
+
     Click Element    xpath=//input[@id='edit-field-mode-of-payment-und-0']
     Click Element    xpath=//input[@id='edit-field-code-of-conduct-und-0']
     Click Element   //input[@id='edit-preview']
