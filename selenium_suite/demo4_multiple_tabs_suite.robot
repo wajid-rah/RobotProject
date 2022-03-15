@@ -12,5 +12,6 @@ TC1
     Input Text    id=input_username    ss
     Input Password    id=input_password     abc1234
     Click Element    id=input_go
-    Element Should Contain    //div[contains(text(),'Access denied for user')]      Access denied for user. Additional error information may be available
+
+    Element Should Contain    //div[contains(text(),'Access')]      Access denied for user
 
