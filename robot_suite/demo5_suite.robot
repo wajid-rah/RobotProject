@@ -1,6 +1,8 @@
+*** Settings ***
+Library    SeleniumLibrary
 *** Variables ***
 ${MY_NAME}      Wajid Rahman
-@{COLORS}      red  yellow  blue
+@{COLORS}      red  yellow  blue    green
 
 *** Test Cases ***
 TC1
@@ -17,3 +19,4 @@ TC2
 TC3
     Log To Console    ${COLORS}     # dont use @
     Log To Console    ${COLORS}[0]
+    ${count}    Get Length    ${COLORS}
