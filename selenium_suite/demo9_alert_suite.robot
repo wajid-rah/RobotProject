@@ -12,6 +12,7 @@ TC1
     Click Element   xpath=//img[@alt='Go']
     ${alert_msg}    Handle Alert    action=ACCEPT       timeout=20s
     Log To Console    ${alert_msg}
+    Should Be Equal    ${alert_msg}    Customer ID${SPACE}${SPACE}cannot be left blank.
 
 TC2
     Open Browser    browser=chrome     executable_path=${EXECDIR}${/}driver${/}chromedriver.exe
