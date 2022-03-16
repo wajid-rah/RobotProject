@@ -25,7 +25,7 @@ TC3
     
 TC4
     ${fruits}   Create List     apple   banana    mango     pineapple
-    Remove From List    ${fruits}    2
+    Remove Values From List    ${fruits}    mango
     Log To Console    ${fruits}
 
     Append To List    ${fruits}     orange
