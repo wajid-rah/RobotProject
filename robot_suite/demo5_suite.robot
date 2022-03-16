@@ -33,3 +33,6 @@ TC4
 
     Insert Into List    ${fruits}    2    JackFruit
     Log To Console    ${fruits}
+    
+    Sort List    ${fruits}
+    Log List    ${fruits}
