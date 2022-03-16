@@ -31,8 +31,8 @@ TC1 Sign Up
     Click Element    //span[contains(text(),' What elementary school did you go to? ')]
 
     Input Text    //input[@data-placeholder="Answer"]    KGF
-    Click Element    //span[@class='mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin']
-    Click Element   //button[contains(text(),' Done ')]
+    Click Element    //input[@type="checkbox"]/..
+    Click Element   (//button[normalize-space()='Done'])
     Element Text Should Be    //span[contains(text(),'Password is required.')]    Password is required.
 
 
