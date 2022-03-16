@@ -1,5 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
+Library    OperatingSystem
+Library    Collections
 *** Variables ***
 ${MY_NAME}      Wajid Rahman
 @{COLORS}      red  yellow  blue    green
@@ -20,3 +22,14 @@ TC3
     Log To Console    ${COLORS}     # dont use @
     Log To Console    ${COLORS}[0]
     ${count}    Get Length    ${COLORS}
+    
+TC4
+    ${fruits}   Create List     apple   banana    mango     pineapple
+    Remove From List    ${fruits}    2
+    Log To Console    ${fruits}
+
+    Append To List    ${fruits}     orange
+    Log To Console    ${fruits}
+
+    Insert Into List    ${fruits}    2    JackFruit
+    Log To Console    ${fruits}
