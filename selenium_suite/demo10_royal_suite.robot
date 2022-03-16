@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 
-#Test Teardown       Close Browser
+Test Teardown       Close Browser
 
 *** Test Cases ***
 TC1 Sign Up
@@ -35,7 +35,7 @@ TC1 Sign Up
     Click Element   (//button[normalize-space()='Done'])
     Element Text Should Be    //span[contains(text(),'Password is required.')]    Password is required.
 
-
+    Sleep   10s
 
 
 
