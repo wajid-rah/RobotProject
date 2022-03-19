@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Library     AutoItLibrary
+
 
 
 *** Test Cases ***
