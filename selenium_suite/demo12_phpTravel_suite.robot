@@ -29,3 +29,6 @@ TC1
     Click Element    //button[@id="flights-search"]
 
 
+    Element Should Contain    xpath=//div[@class='section-heading']    LAX
+    Element Should Contain    xpath=//div[@class='section-heading']    DAL
+    Element Should Contain    xpath=//div[@class='section-heading']    30-12-2022
